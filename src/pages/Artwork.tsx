@@ -95,10 +95,12 @@ const renderImage = (image: any) => (
 export const Artwork = () => {
   const { isMobile } = useUiContext();
   let tempChunk: any[] = [];
+
+  const rowCount = isMobile ? 2 : 3;
   const chunkedImages: any[][] = [];
   const shuffledImages = shuffle(images);
   shuffledImages.forEach((image, index) => {
-    if (index % 3 === 0 && index !== 0) {
+    if (index % rowCount === 0 && index !== 0) {
       chunkedImages.push(tempChunk);
       tempChunk = [image];
     } else {
