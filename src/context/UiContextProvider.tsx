@@ -20,7 +20,7 @@ export const UiContextProvider = ({
   const onLayoutChange = useMemo(
     () => () => {
       if (ref.current) {
-        if (ref.current.offsetWidth < 600) {
+        if (ref.current.offsetWidth < 900) {
           setIsMobile(true);
         } else {
           setIsMobile(false);
@@ -56,14 +56,9 @@ export const UiContextProvider = ({
         ref={ref}
         sx={{
           height: '100%',
+          width: '100%',
           position: 'relative',
           overflow: 'hidden',
-          a: {
-            textDecoration: 'none',
-            ':visited': {
-              color: '#fff',
-            },
-          },
         }}
       >
         {children}

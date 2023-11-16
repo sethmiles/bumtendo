@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.e6c13ad2.css",
-    "main.js": "/static/js/main.6219d37c.js",
-    "static/js/787.d4aba7ab.chunk.js": "/static/js/787.d4aba7ab.chunk.js",
+    "main.js": "/static/js/main.e5bd97f8.js",
+    "static/media/slaveToTheRaveIntro.mp4": "/static/media/slaveToTheRaveIntro.17e1450d4cbad395d596.mp4",
+    "static/media/OncleJazzTakyon.mp4": "/static/media/OncleJazzTakyon.2c5b78840cdddc3dd1b9.mp4",
+    "static/media/slaveToTheRaveCredits.mp4": "/static/media/slaveToTheRaveCredits.cbb5df3bef6607185937.mp4",
+    "static/media/externalDenver2.mp4": "/static/media/externalDenver2.3255f58b705f1878d5ec.mp4",
     "static/media/21.jpg": "/static/media/21.d5ef5a082037a09f6b07.jpg",
     "static/media/28.jpg": "/static/media/28.6dfe416287ca3158846c.jpg",
     "static/media/27.jpg": "/static/media/27.0b7e35504b72cdfe905f.jpg",
@@ -15,6 +17,7 @@
     "static/media/10.jpg": "/static/media/10.6b9ac0580d8449793738.jpg",
     "static/media/8.jpg": "/static/media/8.17e0f090bbe64698afe1.jpg",
     "static/media/20.jpg": "/static/media/20.531cd8b5d48623ec71ea.jpg",
+    "static/media/onclejazzthumbnain.png": "/static/media/onclejazzthumbnain.e855771777f3006b7bcb.png",
     "static/media/23.jpg": "/static/media/23.9bcc75c4e535b4a0217a.jpg",
     "static/media/22.jpg": "/static/media/22.e7706cde0f8bbd951e39.jpg",
     "static/media/16.jpg": "/static/media/16.4cf607f0cef842f80a59.jpg",
@@ -31,14 +34,15 @@
     "static/media/13.jpg": "/static/media/13.a37ef0082f378c6bb803.jpg",
     "static/media/1.jpg": "/static/media/1.cd4064f0ce457c1052f9.jpg",
     "static/media/12.jpg": "/static/media/12.e3519a0c8735112fb683.jpg",
+    "static/media/slaveToRaveCreditsPoster.jpg": "/static/media/slaveToRaveCreditsPoster.7021f2ed6354cb245c95.jpg",
     "static/media/whiteBoldBumtendo.png": "/static/media/whiteBoldBumtendo.c4c723b56457687e72c0.png",
+    "static/media/cory3.jpeg": "/static/media/cory3.1a36ae042e211cdd1b60.jpeg",
+    "static/media/slaveToRaveIntroPoster.jpg": "/static/media/slaveToRaveIntroPoster.f27e85e3977dda4d13d7.jpg",
+    "static/media/externalDenverPoster.jpg": "/static/media/externalDenverPoster.0b932e2d4042c465cba6.jpg",
     "index.html": "/index.html",
-    "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
-    "main.6219d37c.js.map": "/static/js/main.6219d37c.js.map",
-    "787.d4aba7ab.chunk.js.map": "/static/js/787.d4aba7ab.chunk.js.map"
+    "main.e5bd97f8.js.map": "/static/js/main.e5bd97f8.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.6219d37c.js"
+    "static/js/main.e5bd97f8.js"
   ]
 }

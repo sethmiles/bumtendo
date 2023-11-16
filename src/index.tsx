@@ -1,34 +1,32 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import { Home } from './pages/Home';
-import reportWebVitals from './reportWebVitals';
+import { HomePage } from './pages/HomePage';
 import { UiContextProvider } from './context/UiContextProvider';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import { About } from './pages/About';
-import { Editing } from './pages/Editing';
-import { Artwork } from './pages/Artwork';
+import { AboutPage } from './pages/AboutPage';
+import { EditingPage } from './pages/EditingPage';
+import { ArtworkPage } from './pages/ArtworkPage';
 
 const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
+  document.getElementsByTagName('body')[0] as HTMLElement
 );
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Home />,
+    element: <HomePage />,
   },
   {
     path: '/about',
-    element: <About />,
+    element: <AboutPage />,
   },
   {
     path: '/editing',
-    element: <Editing />,
+    element: <EditingPage />,
   },
   {
     path: '/artwork',
-    element: <Artwork />,
+    element: <ArtworkPage />,
   },
 ]);
 
@@ -39,8 +37,3 @@ root.render(
     </UiContextProvider>
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
