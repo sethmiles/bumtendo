@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box } from '@mui/material';
-import { useUiContext } from '../context/UiContext';
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 
 export const PageTitle = ({ title }: { title: string }) => {
   return (
@@ -11,8 +11,20 @@ export const PageTitle = ({ title }: { title: string }) => {
         fontSize: '60px',
         marginBottom: '25px',
         fontFamily: 'Courier',
+        alignItems: 'center',
       }}
     >
+      <ArrowBackIcon
+        sx={{
+          fontSize: '50px',
+          marginRight: '48px',
+          cursor: 'pointer',
+          ':hover': { color: 'red' },
+        }}
+        onClick={() => {
+          window.location.href = '/';
+        }}
+      />
       <Box sx={{ color: 'red' }}>/</Box>
       <Box>{title}</Box>
     </Box>

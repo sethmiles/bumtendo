@@ -7,6 +7,7 @@ import { useUiContext } from '../context/UiContext';
 const links = [
   { name: 'editing', url: '/editing' },
   { name: 'artwork', url: '/artwork' },
+  { name: 'booking', url: '/booking' },
   { name: 'about me', url: '/about' },
 ];
 
@@ -39,7 +40,6 @@ export const HomePage = () => {
       <Box
         sx={{
           display: 'flex',
-          gap: '24px',
           ...(isMobile && { flexDirection: 'column' }),
           a: { textDecoration: 'none' },
         }}

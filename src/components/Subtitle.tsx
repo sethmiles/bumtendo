@@ -14,7 +14,7 @@ export const Subtitle = ({
       sx={{
         display: 'flex',
         fontWeight: 100,
-        fontSize: '30px',
+        fontSize: '40px',
         marginBottom: '25px',
         ...sx,
       }}
