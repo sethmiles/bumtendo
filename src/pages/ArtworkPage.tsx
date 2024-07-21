@@ -32,6 +32,7 @@ import ab from '../images/28.jpg';
 import { PageTitle } from '../components/PageTitle';
 import { PageWrapper } from '../components/PageWrapper';
 import { Subtitle } from '../components/Subtitle';
+import { Footer } from '../components/Footer';
 
 const images = [
   a,
@@ -121,6 +122,7 @@ export const ArtworkPage = () => {
           {chunk.map((image) => renderImage(image))}
         </Box>
       ))}
+      <Footer />
     </PageWrapper>
   );
 };

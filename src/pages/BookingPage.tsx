@@ -5,6 +5,7 @@ import { PageTitle } from '../components/PageTitle';
 import { Paragraph } from '../components/Paragraph';
 import { PageWrapper } from '../components/PageWrapper';
 import { InlineWidget } from 'react-calendly';
+import { Footer } from '../components/Footer';
 
 export const BookingPage = () => {
   const { isMobile } = useUiContext();
@@ -19,17 +20,26 @@ export const BookingPage = () => {
         }}
       >
         <Paragraph sx={{ marginBottom: '40px' }}>
-          Tattoo pricing
-          <ul>
-            <li>Small: $100</li>
-            <li>Medium: $150</li>
-          </ul>
+          Tattoo Booking
+          <br />
+          <br />
+          Hello! Thank you for your interest in booking with me!
+          <br />
+          <br />
+          I do handpoked, machineless, tattoos. This process may take more time
+          but is overall less traumatic to your skin and for some can be a
+          little less over-stimulating/painful.
+          <br />
+          <br />
+          Pricing typically ranges from $125-200 per Tattoo :)
+          <br />
+          <br />
         </Paragraph>
       </Box>
       <InlineWidget
         url="https://calendly.com/aminycartoon/flash-tattoo"
         styles={{
-          height: '1800px',
+          height: '1000px',
         }}
         pageSettings={{
           hideGdprBanner: true,
@@ -38,6 +48,16 @@ export const BookingPage = () => {
           textColor: '#fff',
         }}
       />
+
+      <Paragraph sx={{ marginBottom: '40px' }}>
+        <br />
+        <br />
+        Feel free to reach out to me for any further questions
+        <br />
+        <br />
+        <Footer />
+        <br />
+      </Paragraph>
     </PageWrapper>
   );
 };

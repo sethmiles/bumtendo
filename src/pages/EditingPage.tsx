@@ -5,6 +5,7 @@ import CoryHoward_SizzleReel_2024 from '../video/CoryHoward_SizzleReel_2024.mp4'
 import { PageTitle } from '../components/PageTitle';
 import { Subtitle } from '../components/Subtitle';
 import SouthIcon from '@mui/icons-material/South';
+import { Footer } from '../components/Footer';
 
 const videoSections: Record<string, string[]> = {
   reel: ['https://www.youtube.com/embed/qIYBHa8x8LI?si=hKZgwxw7fMTojcj7'],
@@ -183,6 +184,8 @@ export const EditingPage = () => {
           {Object.entries(videoSections).map(([sectionName, videoLinks]) => (
             <RenderSection title={sectionName} videoLinks={videoLinks} />
           ))}
+
+          <Footer />
         </Box>
       </Box>
     </Box>
