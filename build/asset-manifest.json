@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/static/js/main.7ee97497.js",
-    "static/media/CoryHoward_SizzleReel_2024.mp4": "/static/media/CoryHoward_SizzleReel_2024.b1fdf3b2ef70b0147a8c.mp4",
+    "main.js": "/static/js/main.a3b3cd5f.js",
+    "static/media/CorySizzleCompressed.mp4": "/static/media/CorySizzleCompressed.f0ee772f850b801ec32e.mp4",
     "static/media/21.jpg": "/static/media/21.d5ef5a082037a09f6b07.jpg",
     "static/media/28.jpg": "/static/media/28.6dfe416287ca3158846c.jpg",
     "static/media/27.jpg": "/static/media/27.0b7e35504b72cdfe905f.jpg",
@@ -33,9 +33,9 @@
     "static/media/whiteBoldBumtendo.png": "/static/media/whiteBoldBumtendo.c4c723b56457687e72c0.png",
     "static/media/cory3.jpeg": "/static/media/cory3.1a36ae042e211cdd1b60.jpeg",
     "index.html": "/index.html",
-    "main.7ee97497.js.map": "/static/js/main.7ee97497.js.map"
+    "main.a3b3cd5f.js.map": "/static/js/main.a3b3cd5f.js.map"
   },
   "entrypoints": [
-    "static/js/main.7ee97497.js"
+    "static/js/main.a3b3cd5f.js"
   ]
 }

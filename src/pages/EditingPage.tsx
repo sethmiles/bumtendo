@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import { Box } from '@mui/material';
 import { useUiContext } from '../context/UiContext';
-import CoryHoward_SizzleReel_2024 from '../video/CoryHoward_SizzleReel_2024.mp4';
+import CorySizzleCompressed from '../video/CorySizzleCompressed.mp4';
 import { PageTitle } from '../components/PageTitle';
 import { Subtitle } from '../components/Subtitle';
 import SouthIcon from '@mui/icons-material/South';
@@ -54,7 +54,7 @@ const RenderYoutubeVideo = ({ link }: { link: string }) => (
   <Box
     sx={{
       flexGrow: 1,
-      minWidth: '500px',
+      minWidth: '300px',
       maxWidth: '800px',
       aspectRatio: '16/9',
     }}
@@ -131,7 +131,7 @@ export const EditingPage = () => {
                 });
               }}
             />
-            <Box sx={{ fontSize: '48px' }}>scroll down bitch</Box>
+            <Box sx={{ fontSize: '48px' }}>scroll down</Box>
           </Box>
         </Box>
         <Box sx={{ width: '100%', height: '100%' }}>
@@ -144,8 +144,9 @@ export const EditingPage = () => {
             muted
             autoPlay
             loop
+            playsInline
           >
-            <source src={CoryHoward_SizzleReel_2024} type="video/mp4" />
+            <source src={CorySizzleCompressed} type="video/mp4" />
           </video>
         </Box>
       </Box>

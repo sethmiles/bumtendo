@@ -1,14 +1,17 @@
 import React from 'react';
 import { Box } from '@mui/material';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import { useUiContext } from '../context/UiContext';
 
 export const PageTitle = ({ title }: { title: string }) => {
+  const { isMobile } = useUiContext();
+
   return (
     <Box
       sx={{
         display: 'flex',
         fontWeight: 'bold',
-        fontSize: '60px',
+        fontSize: isMobile ? '40px' : '60px',
         marginBottom: '25px',
         fontFamily: 'Courier',
         alignItems: 'center',
@@ -16,8 +19,8 @@ export const PageTitle = ({ title }: { title: string }) => {
     >
       <ArrowBackIcon
         sx={{
-          fontSize: '50px',
-          marginRight: '48px',
+          fontSize: isMobile ? '40px' : '50px',
+          marginRight: isMobile ? '24px' : '48px',
           cursor: 'pointer',
           ':hover': { color: 'red' },
         }}
